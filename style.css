@@ -1,0 +1,65 @@
+html,
+        body {
+            height: 100%;
+            font-size: 26px;
+            font-weight: 400;
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+        }
+
+        .pImg1 {
+            background-image: url(./images/image1.png);
+            min-height: 100%;
+        }
+
+        .pImg2 {
+            background-image: url(./images/image2.png);
+            min-height: 400px;
+        }
+
+        .pImg3 {
+            background-image: url(./images/image3.png);
+            min-height: 400px;
+        }
+
+        .pImg1,
+        .pImg2,
+        .pImg3 {
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            background-attachment: fixed;
+        }
+
+        .ptext {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            text-align: center;
+            color: black;
+            font-size: 27px;
+            letter-spacing: 8px;
+            text-transform: uppercase;
+        }
+
+        .text {
+            background: #313534;
+            color: #fff;
+            padding: 20px;
+        }
+
+        .section {
+            padding: 50px 80px;
+            text-align: center;
+        }
+
+        .section_light {
+            background-color: #f4f4f4;
+            color: #666;
+        }
+
+        .section_dark {
+            background-color: #666;
+            color: #f4f4f4;
+        }
